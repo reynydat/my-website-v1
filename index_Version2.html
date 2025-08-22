@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Reynydat</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    html {
+      scroll-behavior: smooth;
+    }
+  </style>
+</head>
+<body class="bg-gray-50 text-gray-800">
+  <!-- Hero Section with Logo -->
+  <section class="bg-gradient-to-r from-blue-900 to-blue-600 text-white min-h-screen flex flex-col justify-center items-center text-center p-6 relative">
+    <!-- Logo Section -->
+    <div class="absolute top-6 left-6 flex items-center space-x-3">
+      <img src="https://via.placeholder.com/50" alt="Company Logo" class="w-12 h-12 rounded-full border-2 border-white">
+      <span class="text-xl font-semibold">Reynydat</span>
+    </div>
+    <div class="flex flex-col justify-center items-center mt-12">
+      <h1 class="text-4xl md:text-6xl font-bold mb-4">Reynydat Private Limited</h1>
+      <p class="text-lg md:text-2xl max-w-2xl mb-6">Reliable Networking, Telecom Switches, and IT Services to power your business growth.</p>
+      <button onclick="document.getElementById('contact').scrollIntoView({behavior: 'smooth'});" class="bg-white text-blue-700 px-6 py-3 rounded-2xl font-semibold shadow-lg hover:bg-gray-100 transition">Contact Us</button>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section id="about" class="py-16 px-6 md:px-20 text-center">
+    <h2 class="text-3xl font-bold mb-6">About Us</h2>
+    <p class="max-w-3xl mx-auto text-lg text-gray-600">With over a decade of experience, Reynydat specializes in delivering robust networking infrastructure, high-performance telecom switches, and end-to-end IT services. Our mission is to keep businesses connected, secure, and future-ready.</p>
+  </section>
+
+  <!-- Services Section -->
+  <section id="services" class="py-16 px-6 md:px-20 bg-gray-100">
+    <h2 class="text-3xl font-bold text-center mb-12">Our Services</h2>
+    <div class="grid gap-8 md:grid-cols-3 text-center">
+      <div class="bg-white p-8 rounded-2xl shadow-md hover:shadow-xl transition">
+        <h3 class="text-xl font-semibold mb-4">Networking Solutions</h3>
+        <p>End-to-end LAN/WAN design, configuration, and optimization to ensure secure and high-speed connectivity.</p>
+      </div>
+      <div class="bg-white p-8 rounded-2xl shadow-md hover:shadow-xl transition">
+        <h3 class="text-xl font-semibold mb-4">Telecom Switches</h3>
+        <p>Enterprise-grade telecom switches and VoIP systems that keep your communication seamless and cost-effective.</p>
+      </div>
+      <div class="bg-white p-8 rounded-2xl shadow-md hover:shadow-xl transition">
+        <h3 class="text-xl font-semibold mb-4">IT Services & Support</h3>
+        <p>Managed IT services, cloud deployment, and 24/7 support tailored to your business needs.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Why Choose Us -->
+  <section id="why" class="py-16 px-6 md:px-20">
+    <h2 class="text-3xl font-bold text-center mb-12">Why Choose Us</h2>
+    <div class="grid gap-8 md:grid-cols-4 text-center">
+      <div class="p-6">
+        <h4 class="text-xl font-semibold mb-2">10+ Years Experience</h4>
+        <p class="text-gray-600">Proven track record in networking & IT solutions.</p>
+      </div>
+      <div class="p-6">
+        <h4 class="text-xl font-semibold mb-2">24/7 Support</h4>
+        <p class="text-gray-600">Always available when your business needs us.</p>
+      </div>
+      <div class="p-6">
+        <h4 class="text-xl font-semibold mb-2">Certified Engineers</h4>
+        <p class="text-gray-600">Team of Cisco, Juniper & Microsoft certified experts.</p>
+      </div>
+      <div class="p-6">
+        <h4 class="text-xl font-semibold mb-2">Cost-Effective</h4>
+        <p class="text-gray-600">Affordable solutions without compromising quality.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="py-16 px-6 md:px-20 bg-blue-900 text-white text-center">
+    <h2 class="text-3xl font-bold mb-6">Get in Touch</h2>
+    <p class="mb-2">📍 WeWork, Olympia Cyberspace, Guindy, Chennai - 600032</p>
+    <p class="mb-2">📞 +91 99302 68522</p>
+    <p class="mb-4">✉️ reynydat@outlook.com</p>
+    <a href="https://www.linkedin.com" target="_blank" class="inline-flex items-center justify-center space-x-2 text-white hover:opacity-80">
+      <img src="https://cdn-icons-png.flaticon.com/512/174/174857.png" alt="LinkedIn" class="w-6 h-6">
+      <span>Connect on LinkedIn</span>
+    </a>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-gray-800 text-gray-400 text-center py-6 flex flex-col items-center space-y-3">
+    <p>&copy; 2025 Reynydat Private Limited. All rights reserved.</p>
+  </footer>
+</body>
+</html>
